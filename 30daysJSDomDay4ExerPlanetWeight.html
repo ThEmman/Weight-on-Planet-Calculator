@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="planetWeight.css" />
+    <style></style>
+  </head>
+  <body>
+
+    <h1>Calculate the Weight of an object on different planets</h1>
+
+
+    <!-- Input form-->
+    <form action="">
+      <input type="number" name="weightInKg" placeholder="Weight in Kg" id="weightField" min="0"/>
+      <select name="planet" id="planet">
+        <option value="empty">--Select a Planet--</option>
+        <option value="Mercury">Mercury</option>
+        <option value="Venus">Venus</option>
+        <option value="Earth">Earth</option>
+        <option value="Mars">Mars</option>
+        <option value="Jupiter">Jupiter</option>
+        <option value="Saturn">Saturn</option>
+        <option value="Uranus">Uranus</option>
+        <option value="Neptune">Neptune</option>
+      </select>
+      <input type="button" value="Calculate Weight" id="submitBtn"/>
+    </form>
+
+    <!-- Display container-->
+    <div id="container">
+      <div class="informer">
+        Hello Enter Something.
+      </div>
+      <div id="showcase">
+        <div class="planetImg">
+          <img src="" alt="No image"/>
+        </div>
+        <div class="results">
+          <h3></h3>
+          <div></div>
+        </div>
+      </div>
+    </div>
+    <div id="info" style="color: white;"></div>
+
+    <!-- Background video of page-->
+    <div id="myVideo">
+      <video autoplay muted loop>
+        <source src="starsBackground.mp4" type="video/mp4" />
+      </video>
+    </div>
+
+    <script src="planetWeight.js"></script>
+  </body>
+</html>

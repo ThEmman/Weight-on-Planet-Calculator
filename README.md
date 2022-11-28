@@ -5,4 +5,4 @@ Calculates an object's weight on different planets.
 
 Maybe if we go to Mars it will be lighter.
 
-project idea from Ase
+# Project idea from Asabeneh Asabeneh 30 days of Javascript repository.
